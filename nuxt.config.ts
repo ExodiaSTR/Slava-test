@@ -4,6 +4,9 @@ import path from 'node:path'
 
 export default defineNuxtConfig({
   devtools: { enabled: false },
+  modules: [
+    '@pinia/nuxt',
+  ],
   postcss: {
     // Add plugin names as key and arguments as value
     // Install them before as dependencies with npm or yarn

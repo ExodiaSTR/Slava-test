@@ -10,12 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
     "nuxt": "^3.11.2",
-    "vue": "^3.4.27",
-    "vue-router": "^4.3.2",
+    "pinia": "^2.1.7",
+    "postcss-inline-svg": "^4.1.0",
     "postcss-nested": "^4.2.3",
     "postcss-nested-ancestors": "^2.0.0",
-    "postcss-inline-svg": "^4.1.0"
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
     "postcss": "^8.1.10"
