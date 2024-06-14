@@ -1,3 +1,7 @@
+## Vercel deploy
+
+Live Example: https://slava-test.vercel.app/
+
 ## ЗАПУСК
 
 Дев мод дефолтными командами
