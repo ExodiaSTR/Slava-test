@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Nissan", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/nissan-brand-regular.woff") format("woff"),
+    url("/nissan-brand-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nissan", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: url("/nissan-brand-light.woff2") format("woff2"),
+    url("/nissan-brand-light.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nissan", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("/nissan-brand-bold.woff") format("woff"),
+    url("/nissan-brand-bold.woff2") format("woff2");
+  font-display: swap;
+}

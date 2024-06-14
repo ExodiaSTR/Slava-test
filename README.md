@@ -1,75 +1,31 @@
-# Nuxt 3 Minimal Starter
+## ЗАПУСК
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Дев мод дефолтными командами
 
-## Setup
-
-Make sure to install the dependencies:
+Пакет манагер Npm
 
 ```bash
 # npm
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+## Описание того что накидал
 
 ```bash
-# npm
-npm run build
+По бэкграунду хедера есть прекол, не хотела картинка правильно с фигмы импортироваться
+сделал бы естественно по-другому(надпись FIGARO как свг впихнул) но не стал
 
-# pnpm
-pnpm run build
 
-# yarn
-yarn build
+С шрифтом обсёр получился, хз что с ним не так, пару часов над этим сидел, в других проектах всё работает
+Виноват Байден
 
-# bun
-bun run build
+
+Ну и адаптив такой се завёз, без дизайна реально впадлу что-то думать,
+да и вроде все условия выполнил
+
+
+Насчёт оптимизации скорости загрузки хз, не понял
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

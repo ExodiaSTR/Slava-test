@@ -1,12 +1,8 @@
 <script setup lang="ts">
-import { useCounterStore } from './store/Counter';
-
-const counter = useCounterStore()
-console.log(counter.count + 1)
+console.log("init");
 </script>
 
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLoadingIndicator color="#e30614" />
+  <NuxtPage />
 </template>
